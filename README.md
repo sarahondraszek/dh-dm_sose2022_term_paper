@@ -8,7 +8,7 @@ This GitHub repository serves as a main collection of all scripts and digital re
 
 In order to be able to visualise the links between the people in the letter corpus, firstly,
 I had to extract the needed metadata from the XML files and the [register.xml](data/register.xml) file.
-For doing so, I used a [Jupyter Notebook](code/preprocessing.ipynb) in which I implemented the functions for
+For doing so, I used a [Jupyter Notebook](code/network_preps.ipynb) in which I implemented the functions for
 metadata extraction and data enrichment. When extracting information about senders and receivers from
 the letters, the algorithm already counts correspondence frequencies that can later be imported for the
 graph visualisation. 
