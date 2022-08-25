@@ -13,6 +13,9 @@ metadata extraction and data enrichment. When extracting information about sende
 the letters, the algorithm already counts correspondence frequencies that can later be imported for the
 graph visualisation. 
 
+![SAneg](data/retrieved/examples_senttext/AWS-aw-00a7_sentimentAnalysis_png/Wordcloud_neg.png)
+
+
 ## Visualisation
 
 For visualising the results (retrieved, also, with [network_preps.ipynb](./code/network_preps.ipynb)), I used the free open-source software [Gephi](https://gephi.org). Here, my first attempts
@@ -30,6 +33,9 @@ For the sentiment analysis, I created the notebook [sentiment_analysis.ipynb](./
 I implemented both the short preprocessing of the texts and their extraction as well as
 the actual analysis with [textblob-de](https://textblob-de.readthedocs.io/en/latest/). Further information can be taken
 from the comments inside the code or the term paper file.
+
+![SApos](data/retrieved/examples_senttext/AWS-aw-00a7_sentimentAnalysis_png/Wordcloud_pos.png)
+![SAtexblob](data/img/pos_neg_dist_textblob.png)
 
 ## Packages (external):
 
